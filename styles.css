@@ -53,13 +53,14 @@ h1 {
 
 .btn {
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     font-weight: bold;
     letter-spacing: 0.5px;
-    padding: 12px 16px;
+    padding: 12px 30px;
     background-color: hsl(0, 0%, 95%);
     cursor: pointer;
     border: 2px solid hsl(0, 0%, 95%);
+    transition: background-color 0.2s ease-in;
 }
 
 .btn:hover {
